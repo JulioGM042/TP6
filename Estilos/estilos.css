@@ -1,0 +1,365 @@
+body {
+  background-image: url("Indexfondo2.JPG");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+header{
+  margin: 1%;
+}
+
+h1 {
+  color: #f7aa00;
+  font-family: "Helvetica",monospace;
+  font-size: 15vmin;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  animation-name: navegacion;
+  animation-duration: 2s;
+}
+
+@keyframes navegacion {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+nav{
+  text-decoration: none;
+  font-family: "Arial Unicode MS";
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav:hover{
+  opacity: 100%;
+  font-size: 150%;
+  transition-property: all;
+  transition-duration: 2s;
+  }
+
+nav a{
+  margin: 50px;
+  color:#FFB86F;
+}
+nav a:visited{
+  color:red;
+}
+
+.salta{
+  padding: 5vmin;
+  margin: 3vmin;
+  animation-name: navegacion;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+.cordillera{
+  padding: 5vmin;
+  margin: 3vmin;
+  animation-name: navegacion;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+.pampa{
+  padding: 5vmin;
+  margin: 3vmin;
+  animation-name: navegacion;
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+.litoral{
+  padding: 5vmin;
+  margin: 3vmin;
+  animation-name: navegacion;
+  animation-duration: 3s;
+  animation-delay: 4s;
+}
+.mail{
+  padding: 5vmin;
+  margin: 3vmin;
+  animation-name: navegacion;
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
+
+section{
+  display: block;
+  justify-content: space-between;
+}
+h2 {
+  Color:#F5A888;
+  font-family:"verdana",monospace;
+  font-size: 2.5em;
+  text-align: right;
+  text-decoration-line: underline;
+}
+.bajada{
+  color:#FF0F0F;
+  font-family: "arial",serif;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+main{
+  margin: 1%;
+}
+main ul{
+  color:#FFB86F;
+  font-family: "verdana",monospace;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.ingredientes{
+  color:#210631;
+  font-family: "arial",monospace;
+  font-weight: bolder;
+  text-align: right;
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+@keyframes titulos {
+0%{transform: translateX(0px);}
+25%{transform: translateX(25px);}
+50%{transform: translateX(55px);}
+75%{transform: translateX(25px);}
+100%{transform: translateX(0px);}
+}
+
+@keyframes salto {
+  0%{transform: translateY(0px);}
+  25%{transform: translateY(-15px);}
+  50%{transform: translateY(-25px);}
+  75%{transform: translateY(-15px);}
+  100%{transform: translateY(0px);}
+  }
+
+@keyframes corridas {
+
+
+}
+
+ol{
+  color:#FFB86F;
+  font-family: "verdana",monospace;
+  font-weight: lighter;
+  margin-right: :1000px ;
+  text-align: left;
+}
+
+.preparacion{
+  color:#210631;
+  font-family: "arial",monospace;
+  font-weight: bolder;
+  margin: auto;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+aside{
+  box-sizing:content-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:1%;
+  flex-wrap: wrap;
+}
+
+.primerajpg{
+  box-sizing:border-box;
+  height: 27vmin;
+  width: 45vmin;
+  align-self: center;
+}
+
+.segundajpg{
+  width: 55vmin;
+  height: 30vmin;
+}
+p{
+  color:white;
+  background-color: #3C91E6;
+  font-family: "arial",serif;
+  font-weight: bolder;
+  margin: auto;
+  font-size: 120%;
+}
+
+.interaccion{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: content-box;
+}
+.mapa{
+  float: right;
+  margin: 5px;
+}
+.video{
+  float: right;
+  margin: 5px;
+}
+.lugares{
+  font-size: 125%;
+  font-weight: 250;
+}
+
+
+
+footer{
+  text-align: center;
+  clear: both;
+}
+footer li{
+list-style: none;
+font-size: 200%;
+display: inline-block;
+margin-right: 10px;
+}
+
+footer ul li a{
+  color:#FFB86F;
+}
+
+footer ul li a:visited{
+  color:red;
+}
+footer ul li:hover{
+  animation-name: navegacion;
+  animation-duration: 1s;
+  animation-direction:reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+footer ul li a:hover{
+  color:white;
+}
+
+.whatsapp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:25px;
+  background:green;
+  color:white;
+  text-align:center;
+  font-size:50px;
+  border-radius: 25%;
+}
+
+.newsletter {
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:100px;
+    right:25px;
+    background:blue;
+    color:white;
+    text-align:center;
+    font-size:50px;
+    border-radius: 25%;
+  }
+
+
+.contacto li{
+  display: block;
+  align-content: flex-start;
+  Color:#F5A888;
+  font-family:"verdana",monospace;
+  list-style: none;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.contacto input,textarea {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  opacity: 1;
+}
+.xx{
+  margin-top: 15px;
+}
+
+.ingredientes:hover{
+  margin-right: 25vmin;
+  animation-name: titulos;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.preparacion:hover{
+animation-name: titulos;
+animation-duration: 3s;
+animation-direction: normal;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+.bajada:hover{
+  color:white;
+  font-size: 1em;
+}
+
+.banner{
+  position:fixed;
+  width:35%;
+  height:15%;
+  bottom:5%;
+  left:5%;
+  text-align:center;
+  display:none;
+}
+
+@media (min-width:575px){
+  main{
+    display: flex;
+    justify-content: space-between;
+    align-content:flex-start;
+    flex-wrap: wrap;
+  }
+  .primerajpg{
+      box-sizing:border-box;
+      height: 275px;
+      width: 450px;
+  }
+  .segundajpg{
+    height: 33%;
+    width: 33%;
+  }
+  .banner{
+    position:fixed;
+    width:35%;
+    height:15%;
+    bottom:5%;
+    left:5%;
+    text-align:center;
+    display:block;
+  }
+  .newsletter{
+    display: none;
+  }
+
+@media (max-width: 575px){
+ header{
+   background-color: white;
+ }
+}
+
+@media (min-width: 768px; max-width:2100px) {
+.lugares  {
+    display: flex;
+    left: 75%;
+    background-color: white;
+  }
+}
